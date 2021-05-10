@@ -1,0 +1,14 @@
+add_executable(
+STAP90 
+    stap.f90
+    common_mod.f90
+    second.f90
+    node_input.f90
+    loads.f90
+    truss.f90
+    colht.f90
+    addres.f90
+    addban.f90
+    colsol.f90
+    writed.f90
+)

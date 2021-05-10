@@ -1,0 +1,10 @@
+      SUBROUTINE LOADV(R, NEQ)
+C     获取载荷向量
+      IMPLICIT DOUBLE PRECISION (A-H, O-Z)
+      COMMON /TAPES/ IELMNT,ILOAD,IIN,IOUT
+      DIMENSION R(NEQ)
+      
+      READ (ILOAD) R
+      
+      RETURN
+      END
